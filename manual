@@ -1,26 +1,32 @@
+#Person 1 Step 1
 get Manual
 
 Description:
 get allow us to recover deleted files.
+
+#Person 1 Step 2
 get allows us to go back to specific version of file.
 get allows teams to collectively create, modify and merge files.
 
-
+#Person 2 Step 1
 Commands:
 clone      Clone a get repository into a new directory
 init       Create an empty get repository or reinitialize an existing one
 
+#Person 2 Step 2
 add        Tell get to track content and stage for next commit
 mv         Move or rename a file, a directory, or a symlink
 reset      Reset current HEAD to the specified state
 rm         Remove files from the working tree and from the index
 
+#Person 3 Step 1
 commit     Save all the added changes to the get repository
 diff       Show changes between commits, commit and working tree, etc
 
 log        Show commit logs
 status     Show the get working tree status
 
+#Person 3 Step 2
 pull       Fetch changes from server and integrate with local code
 push       Update remote get server with local changes
 fetch      Fetch changes from server without integrating with local code.
