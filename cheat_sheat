@@ -1,45 +1,45 @@
-clone the project
+#Clone the project
 cd git_projects
 git clone <link like https://github.com/cssi-seattle-git/design-git.git>
 
 
-Add some local changes and save them
+#Add some local changeC and save them
 git add <filename>
 <make changes>
 git commit -m "Message about change"
 
-Save and publish changes to server
+#Save and publish changes to server
 git push
 
-Get up to data change from server
+#Get up to data change from server
 git pull
 
-See the current status of files and commits
+#See the current status of files and commits
 git status
 
-Set user name and other config
+#Set user name and other config
 git config --global user.name 'Rishi'
 git config --global user.email 'rishiag@google.com'
 git help config
 
 
-Create local repository and push it to server (clone alternative)
+#Create local repository and push it to server (clone alternative)
 git init
 git remote add origin <link like https://github.com/sdaityari/my_git_project.git>
 git push -u origin master
 
 
-See diff against uncommitted code
+#See diff against uncommitted code
 git diff
 
-See diff against server code
+#See diff against server code
 git pull
 git diff master origin/master
 
-Abort the merge and go back to previous state
+#Abort the merge and go back to previous state
 git merge --abort
 
-Go back to a version
+#Go back to a version
 git log --oneline
 git reset --hard <commit-hash>
 git push -f origin master (to push the change to server)
