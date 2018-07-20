@@ -10,18 +10,17 @@ Commands:
 clone      Clone a repository into a new directory
 init       Create an empty Git repository or reinitialize an existing one
 
-add        Add file contents to the index
+add        Tell get to track content and stage for next commit
 mv         Move or rename a file, a directory, or a symlink
 reset      Reset current HEAD to the specified state
 rm         Remove files from the working tree and from the index
 
-commit     Record changes to the repository
+commit     Save all the added changes to the repository
 diff       Show changes between commits, commit and working tree, etc
 
 log        Show commit logs
 status     Show the working tree status
 
-pull       Fetch from and integrate with another repository or a local branch
-push       Update remote refs along with associated objects
-fetch      Download objects and refs from another repository
-
+pull       Fetch changes from server and integrate with local code.
+push       Update remote server with local changes.refs along with associated objects
+fetch      Fetch changes from server without integrating with local code.
