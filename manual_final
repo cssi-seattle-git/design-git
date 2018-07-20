@@ -1,0 +1,25 @@
+git Manual
+
+Description:
+git allow us to recover deleted files.
+git allows us to go back to specific version of file.
+git allows teams to collectively create, modify and merge files.
+
+Commands:
+clone      Clone a git repository into a new directory
+init       Create an empty git repository or reinitialize an existing one
+
+add        Tell git to track content and stage for next commit
+mv         Move or rename a file, a directory, or a symlink
+reset      Reset current HEAD to the specified state
+rm         Remove files from the working tree and from the index
+
+commit     Save all the added changes to the git repository
+diff       Show changes between commits, commit and working tree, etc
+
+log        Show commit logs
+status     Show the git working tree status
+
+pull       Fetch changes from server and integrate with local code
+push       Update remote git server with local changes
+fetch      Fetch changes from server without integrating with local code.
